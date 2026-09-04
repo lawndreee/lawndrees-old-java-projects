@@ -1,0 +1,33 @@
+BorderPane {
+    -fx-background-color: whitesmoke;
+    -fx-alignment: CENTER;
+    -fx-background-image: url("images/bgpos2.png");
+    -fx-background-size: 1000;
+}
+
+BorderPane HBox {
+    -fx-alignment: CENTER;
+}
+
+BorderPane Text {
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 14pt;
+}
+Button {
+    -fx-font-size: 22 pt;
+    -fx-font-family: "Pixelify Sans";
+}
+AnchorPane {
+    -fx-max-width: 1000;
+    -fx-max-height: 700;
+    -fx-pref-width: 1000;
+    -fx-pref-height: 700;
+    -fx-min-height: 500;
+    -fx-min-width: 800;
+}
+Label {
+    -fx-font-family: "Pixelify Sans";
+    -fx-min-width: 50;
+    -fx-min-height: 700;
+    -fx-font-size: 15;
+}
